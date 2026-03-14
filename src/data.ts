@@ -31,7 +31,7 @@ export const characters: Character[] = [
 
 export const characterPortraits: Record<Character, string> = {
   All: "https://picsum.photos/seed/re_umbrella/400/300?blur=2",
-  "Chris Redfield": "https://www.evilresource.com/images/data/full/re4remake/ada-wong.png?d1dc819e",
+  "Chris Redfield": "https://www.evilresource.com/images/data/full/re8/chris-redfield.png?ea924dcd",
   "Jill Valentine": "https://static.wikia.nocookie.net/zombie/images/8/87/Jill_Valentine.jpeg/revision/latest/scale-to-width-down/1000?cb=20231211232818",
   "Leon S. Kennedy": "https://static.wikia.nocookie.net/residentevil/images/6/6d/RE_Requiem_-_Leon_Gun.jpeg/revision/latest/scale-to-width-down/1000?cb=20251212070936",
   "Claire Redfield": "https://static.wikia.nocookie.net/zombie/images/c/ce/Claire_Redfield.jpg/revision/latest?cb=20240922011202",
