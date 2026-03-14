@@ -382,7 +382,7 @@ export default function Overlay({
             {t('app.instructions')}
           </p>
         )}
-        <p className="text-[10px] font-mono text-slate-600 uppercase tracking-tighter opacity-50">
+        <p className="text-[10px] font-mono text-slate-600 uppercase tracking-tighter opacity-50 whitespace-nowrap">
           Resident Evil is a trademark of Capcom. Character art by Fandom Wiki &{" "}
           <a
             href="https://www.evilsource.com"
