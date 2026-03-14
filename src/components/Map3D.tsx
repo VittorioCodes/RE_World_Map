@@ -5,7 +5,7 @@ import * as THREE from "three";
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import { Location, Character, locations, gameOrder } from "../data";
-import { OrbitControls, Line, Html, useTexture, Text } from "@react-three/drei";
+import { OrbitControls, Line, Html, useTexture, Text, Billboard } from "@react-three/drei";
 
 const HeavyPostProcessing = lazy(() => import("./HeavyPostProcessing"));
 
@@ -280,18 +280,19 @@ const Marker = ({
 
       {/* Label */}
       {!isFaded && (
-        <Text
-          position={[0, height + 0.5, 0]}
-          fontSize={0.35}
-          color={isSelected ? "#f87171" : "#cbd5e1"}
-          anchorX="center"
-          anchorY="bottom"
-          outlineWidth={0.04}
-          outlineColor="#1a1515"
-          renderOrder={1}
-        >
-          {t(`locations.${location.id}.name`, location.name)}
-        </Text>
+        <Billboard position={[0, height + 0.5, 0]}>
+          <Text
+            fontSize={0.35}
+            color={isSelected ? "#f87171" : "#cbd5e1"}
+            anchorX="center"
+            anchorY="bottom"
+            outlineWidth={0.04}
+            outlineColor="#1a1515"
+            renderOrder={1}
+          >
+            {t(`locations.${location.id}.name`, location.name)}
+          </Text>
+        </Billboard>
       )}
 
       {children}
@@ -487,18 +488,19 @@ export default function Map3D({
                 heavyNostalgiaMode={heavyNostalgiaMode}
               >
                 {showNumber && (
-                  <Text
-                    position={[0, 3.4, 0]}
-                    fontSize={0.45}
-                    color="#ffffff"
-                    anchorX="center"
-                    anchorY="middle"
-                    outlineWidth={0.08}
-                    outlineColor="#dc2626"
-                    renderOrder={2}
-                  >
-                    {String(pathIndex + 1)}
-                  </Text>
+                  <Billboard position={[0, 3.4, 0]}>
+                    <Text
+                      fontSize={0.45}
+                      color="#ffffff"
+                      anchorX="center"
+                      anchorY="middle"
+                      outlineWidth={0.08}
+                      outlineColor="#dc2626"
+                      renderOrder={2}
+                    >
+                      {String(pathIndex + 1)}
+                    </Text>
+                  </Billboard>
                 )}
               </Marker>
             );
