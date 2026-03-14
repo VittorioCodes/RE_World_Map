@@ -1,4 +1,4 @@
-# 🧬 Biohazard Archive: Raccoon City Incident
+# 🧬 Biohazard Archive: Resident Evil Event Map
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 **An immersive 3D interactive world map documenting every major biohazard incident in the Resident Evil universe.**
 
-[Live Demo](#) · [Report Bug](../../issues) · [Request Feature](../../issues)
+[Live Demo](https://vittoriocodes.github.io/RE_World_Map/) · [Report Bug](../../issues) · [Request Feature](../../issues)
 
 </div>
 
