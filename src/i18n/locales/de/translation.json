@@ -1,0 +1,131 @@
+{
+  "app": {
+    "title": "Resident Evil",
+    "subtitle": "Globale Biogefährdungs-Topologie",
+    "nostalgia_on": "Nostalgie-Modus: AN",
+    "nostalgia_off": "Nostalgie-Modus: AUS",
+    "crt_max": "CRT-Effekt: MAX",
+    "crt_min": "CRT-Effekt: MIN",
+    "virus_database": "Virus-Datenbank",
+    "bow_database": "B.O.W.-Datenbank",
+    "track_subject": "Subjekt verfolgen",
+    "waypoint": "WEGPUNKT {{current}} / {{total}}",
+    "location_data": "Standortdaten",
+    "featured_in": "Erscheint in",
+    "subjects_present": "Vorhandene Subjekte",
+    "incident_summary": "Zusammenfassung des Vorfalls",
+    "lat": "BREITE",
+    "lng": "LÄNGE",
+    "instructions": "Ziehen zum Drehen • Scrollen zum Zoomen • Klicken auf Marker für Infos",
+    "classified": "KLASSIFIZIERT",
+    "description": "Beschreibung",
+    "symptoms": "Symptome und Auswirkungen",
+    "sys_op_normal": "BETRIEBSSYSTEM NORMAL",
+    "archive": "ARCHIV UMBRELLA CORP. // {{year}}",
+    "language": "Sprache"
+  },
+  "characters": {
+    "All": "Alle",
+    "Chris Redfield": "Chris Redfield",
+    "Jill Valentine": "Jill Valentine",
+    "Leon S. Kennedy": "Leon S. Kennedy",
+    "Claire Redfield": "Claire Redfield",
+    "Ada Wong": "Ada Wong",
+    "Ethan Winters": "Ethan Winters",
+    "Grace Ashcroft": "Grace Ashcroft"
+  },
+  "locations": {
+    "raccoon-city": {
+      "name": "Raccoon City und Arklay-Gebirge",
+      "summary": "Wo der Albtraum begann. Der Funke, der in der Villa im Arklay-Gebirge übersprang, entwickelte sich zu einer nuklearen Katastrophe, die eine ganze Stadt in Schutt und Asche legte. Heute ist es nur noch ein Friedhof, der von den Geistern der Vergangenheit heimgesucht wird, wo sich die Wege von Leon und Grace kreuzen."
+    },
+    "rockfort-island": {
+      "name": "Rockfort Island",
+      "summary": "Eine isolierte Insel, auf der Claire hinter Gittern das wahre Gesicht von Umbrella entdeckte. Aufgewühlt durch das Feuer von Weskers Rache, wurde diese Anlage unter den Klauen des T-Veronica-Virus zerstört."
+    },
+    "valdelobos": {
+      "name": "Valdelobos (Ländliches Dorf)",
+      "summary": "Ein Dorf im spanischen Hinterland, in dem die Zeit stehen geblieben ist. Infiziert durch Las Plagas durch den Kult Los Iluminados, waren diese Ländereien Schauplatz eines erbitterten Überlebenskampfes, den Leon führte, um die Tochter des Präsidenten zu retten."
+    },
+    "kijuju": {
+      "name": "Autonome Zone Kijuju",
+      "summary": "Chaos in der sengenden Hitze Westafrikas, im Schatten von Uroboros. Chris und Jill trafen in diesen staubigen Straßen in einem letzten Kampf aufeinander, um Weskers Traum von Evolution in einen Albtraum zu verwandeln."
+    },
+    "tall-oaks": {
+      "name": "Tall Oaks",
+      "summary": "Eine amerikanische Stadt, erschüttert durch den Tod des Präsidenten. Während die Zerstörung durch das C-Virus eine ganze Gesellschaft vor Leons Augen in Monster verwandelte, blieben nur brennende Gebäude und endlose Trauer zurück."
+    },
+    "edonia": {
+      "name": "Edonia",
+      "summary": "Ein osteuropäisches Land, versunken im Schmerz des Bürgerkriegs. In diesen verschneiten Ländereien, wo J'avo-Mutationen umherstreifen, zahlte die BSAA einen ihrer höchsten Preise."
+    },
+    "lanshiang": {
+      "name": "Lanshiang",
+      "summary": "Eine Metropole, in der Millionen Menschen leben, wurde über Nacht zu einem Bioterrorismus-Labor von Neo Umbrella. Chris und Leon kämpften Seite an Seite in dieser neonbeleuchteten Hölle, um das letzte Bollwerk der Menschheit zu verteidigen."
+    },
+    "dulvey": {
+      "name": "Dulvey, Louisiana",
+      "summary": "Das verfallende Anwesen der Familie Baker in den Sümpfen von Louisiana. Auf der Suche nach seiner vermissten Frau fand sich Ethan Winters in diesem Haus des Schreckens wieder, das vom 'Schimmel' und Eveline erschaffen wurde, wo Realität und Albtraum verschmelzen."
+    },
+    "the-village": {
+      "name": "Das Dorf",
+      "summary": "Ein uraltes Dorf in den verschneiten Bergen Rumäniens, regiert von Mutter Miranda und ihren vier Lords. Diese Ländereien, in denen der Megamyzet Wurzeln geschlagen hat, sind stille Zeugen von Ethans letztem und tragischstem Kampf, um seine Tochter zu retten."
+    }
+  },
+  "viruses": {
+    "progenitor": {
+      "name": "Progenitor-Virus",
+      "creator": "Mutter Miranda / Umbrella-Gründer",
+      "description": "Eine uralte Kraft, verborgen in der Essenz der Blume 'Treppe zur Sonne' im Herzen Westafrikas. Dieses Virus, das den Grundstein für Umbrella legte, ist der Vorfahre aller biologischen Katastrophen, die die menschliche Evolution erzwingen.",
+      "symptoms": "Extreme Mutation der Zellstruktur und Steigerung der körperlichen Stärke. Für die meisten Subjekte führt dieser Prozess jedoch aufgrund genetischer Inkompatibilität zum schnellen Tod."
+    },
+    "t-virus": {
+      "name": "T-Virus (Tyrant)",
+      "creator": "James Marcus / William Birkin",
+      "description": "Ein Monster, entstanden aus der Mischung des Progenitor-Virus mit der DNA eines Blutegels. Als Frucht von Umbrellas Ehrgeiz, den 'perfekten Soldaten' zu erschaffen, ist dieses Virus hauptverantwortlich dafür, die Zombie-Apokalypse in die Welt zu bringen.",
+      "symptoms": "Nekrose des Gewebes, Verlust der Gehirnfunktionen und ein unendliches Hungergefühl. Subjekte werden zu Untoten und verbreiten Schrecken um sich."
+    },
+    "g-virus": {
+      "name": "G-Virus (Golgotha)",
+      "creator": "William Birkin",
+      "description": "Ein Zyklus unaufhaltsamer Evolution, entdeckt im mutierten Körper von Lisa Trevor. Im Gegensatz zum T-Virus ist das G-Virus ein Sturm von Mutationen, der seinen Wirt ständig verändert und ihn theoretisch unsterblich macht.",
+      "symptoms": "Neue Organe und riesige Augen, die am ganzen Körper wachsen. Vollständiger Verlust des Bewusstseins und sofortige, schreckliche körperliche Anpassungen an Traumata."
+    },
+    "t-veronica": {
+      "name": "T-Veronica-Virus",
+      "creator": "Alexia Ashford",
+      "description": "Alexia Ashfords geniale Kombination des Progenitor-Virus mit den Genen einer Königinnen-Ameise. Dieses Virus gibt dem Wirt die Chance, seine Intelligenz zu bewahren; der Preis ist jedoch ein 15-jähriger Tiefschlaf.",
+      "symptoms": "Blut, das brennbare Eigenschaften annimmt, Insektenmutationen und absolute Kontrolle des Bienenstock-Verstandes über Unterarten."
+    },
+    "las-plagas": {
+      "name": "Las Plagas",
+      "creator": "Los Iluminados (Entdeckt)",
+      "description": "Kein Virus, sondern ein uralter Parasit, der in den dunklen Höhlen Spaniens schläft. Indem er sich im zentralen Nervensystem einnistet, raubt er dem Wirt den Willen und macht ihn zu einem treuen Sklaven des 'Master Plaga'.",
+      "symptoms": "Verlust des freien Willens, extreme Schmerzresistenz und riesige Tentakel, die bei schweren Verletzungen aus dem Körper brechen."
+    },
+    "uroboros": {
+      "name": "Uroboros-Virus",
+      "creator": "Albert Wesker",
+      "description": "Eine gefährliche Mischung aus Progenitor-Antikörpern und Las Plagas, die Weskers Träume von Göttlichkeit befeuerte. Nur die 'Auserwählten' können sich an dieses Virus anpassen, das die Schwachen wie schwarzer Schlamm verschlingt.",
+      "symptoms": "Schwarze, blutegelartige Strukturen, die den Körper des Wirts umschließen. Bei denjenigen, die sich anpassen, übermenschliche Fähigkeiten und rot leuchtende Augen."
+    },
+    "c-virus": {
+      "name": "C-Virus (Chrysalid)",
+      "creator": "Carla Radames",
+      "description": "Eine schreckliche Kombination der T-Veronica- und G-Viren. Entwickelt, um intelligente und extrem gefährliche biologische Waffen (J'avo) zu erschaffen, die je nach erlittenem Schaden sofort mutieren können.",
+      "symptoms": "Der Körper geht in einen Chrysalis-Zustand über und wird in einer völlig anderen, erschreckenden Form wiedergeboren."
+    },
+    "mutamycete": {
+      "name": "Megamyzet (Der Schimmel)",
+      "creator": "Organisation 'Connections'",
+      "description": "Ein riesiges Netzwerk aus Pilzen, das seine Wirte mental verbindet. Ein heimtückischer Organismus, der das Bewusstsein jedes Lebewesens, das er konsumiert, als digitale Daten in seinem Wurzelnetzwerk namens 'Megamyzet' speichert.",
+      "symptoms": "Wundersame Wiederverbindung abgetrennter Gliedmaßen, Halluzinationen und absolute Hingabe an einen zentralen Willen, wie Eveline."
+    },
+    "elanthropus": {
+      "name": "Elanthropus-Virus",
+      "creator": "Unbekannt",
+      "description": "Das dunkle Geheimnis im Herzen von Resident Evil 9: Requiem. Dieser Erreger, verbunden mit Grace Ashcrofts tragischer Geschichte, ist die aktuellste Bedrohung, die die Welt an den Rand einer neuen Auslöschung bringt.",
+      "symptoms": "Schwere Mutationen und unkontrollierbare Aggression. Seine einzige Heilung ist der Elpis-Impfstoff, der unter großen Opfern gewonnen wird."
+    }
+  }
+}

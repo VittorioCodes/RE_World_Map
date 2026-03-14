@@ -1,0 +1,131 @@
+{
+  "app": {
+    "title": "Resident Evil",
+    "subtitle": "Global Biohazard Topology",
+    "nostalgia_on": "Nostalgia Mode: ON",
+    "nostalgia_off": "Nostalgia Mode: OFF",
+    "crt_max": "CRT FX: MAX",
+    "crt_min": "CRT FX: MIN",
+    "virus_database": "Virus Database",
+    "bow_database": "B.O.W. Database",
+    "track_subject": "Track Subject",
+    "waypoint": "WAYPOINT {{current}} / {{total}}",
+    "location_data": "Location Data",
+    "featured_in": "Featured In",
+    "subjects_present": "Subjects Present",
+    "incident_summary": "Incident Summary",
+    "lat": "LAT",
+    "lng": "LNG",
+    "instructions": "Drag to rotate • Scroll to zoom • Click markers for intel",
+    "classified": "CLASSIFIED",
+    "description": "Description",
+    "symptoms": "Symptoms & Effects",
+    "sys_op_normal": "SYS.OP.NORMAL",
+    "archive": "UMBRELLA CORP. ARCHIVE // {{year}}",
+    "language": "Language"
+  },
+  "characters": {
+    "All": "All",
+    "Chris Redfield": "Chris Redfield",
+    "Jill Valentine": "Jill Valentine",
+    "Leon S. Kennedy": "Leon S. Kennedy",
+    "Claire Redfield": "Claire Redfield",
+    "Ada Wong": "Ada Wong",
+    "Ethan Winters": "Ethan Winters",
+    "Grace Ashcroft": "Grace Ashcroft"
+  },
+  "locations": {
+    "raccoon-city": {
+      "name": "Raccoon City & Arklay Mountains",
+      "summary": "Where the nightmare began. The spark that started in that mansion in the Arklay Mountains turned into a nuclear disaster that reduced an entire city to ashes. Now it is just a graveyard full of ghosts of the past, where the paths of Leon and Grace cross."
+    },
+    "rockfort-island": {
+      "name": "Rockfort Island",
+      "summary": "A desolate island where Claire met the true face of Umbrella behind iron bars. Shaken by Wesker's fire of revenge, this facility was dragged to destruction in the clutches of the T-Veronica virus."
+    },
+    "valdelobos": {
+      "name": "Valdelobos (Rural Village)",
+      "summary": "A village deep in Spain where time has stopped. Poisoned by the Los Iluminados cult with Las Plagas, these lands were the scene of a relentless struggle for survival that Leon entered to save the president's daughter."
+    },
+    "kijuju": {
+      "name": "Kijuju Autonomous Zone",
+      "summary": "A chaos in the scorching heat of West Africa, in the shadow of Uroboros. Chris and Jill stood for a final battle in these dusty streets to turn Wesker's dream of evolution into a nightmare."
+    },
+    "tall-oaks": {
+      "name": "Tall Oaks",
+      "summary": "An American city shaken by the death of the president. While the destruction brought by the C-Virus turned an entire society into monsters before Leon's eyes, only burning buildings and endless mourning remained."
+    },
+    "edonia": {
+      "name": "Edonia",
+      "summary": "An Eastern European country writhing in the grip of civil war. In these snowy lands where J'avo mutations roam, the BSAA paid one of its heaviest prices."
+    },
+    "lanshiang": {
+      "name": "Lanshiang",
+      "summary": "A metropolis where millions live turned into Neo Umbrella's bioterrorism laboratory overnight. Chris and Leon stood shoulder to shoulder in this neon-lit hell to defend humanity's last stronghold."
+    },
+    "dulvey": {
+      "name": "Dulvey, Louisiana",
+      "summary": "The rotting mansion of the Baker family in the swamps of Louisiana. While searching for his missing wife, Ethan Winters found himself in that house of horrors created by the 'Mold' and Eveline, where reality and nightmare intertwined."
+    },
+    "the-village": {
+      "name": "The Village",
+      "summary": "An ancient village among the snowy mountains of Romania, ruled by Mother Miranda and her four lords. These lands where the Megamycete took root are the silent witness to Ethan's final and most tragic struggle to save his daughter."
+    }
+  },
+  "viruses": {
+    "progenitor": {
+      "name": "Progenitor Virus",
+      "creator": "Mother Miranda / Umbrella Founders",
+      "description": "An ancient power hidden in the essence of the 'Stairway of the Sun' flower deep in West Africa. This virus, which laid the foundations of Umbrella, is the ancestor of all biological disasters that force human evolution.",
+      "symptoms": "Extreme mutation in cellular structure and increase in physical strength. However, for most subjects, this process results in a rapid death due to genetic incompatibility."
+    },
+    "t-virus": {
+      "name": "T-Virus (Tyrant)",
+      "creator": "James Marcus / William Birkin",
+      "description": "A monster born from blending the Progenitor virus with leech DNA. The fruit of Umbrella's ambition to create the 'perfect soldier', this virus is the main culprit that introduced the world to the zombie outbreak.",
+      "symptoms": "Necrosis in tissues, loss of brain functions, and an endless feeling of hunger. Subjects turn into the living dead, spreading terror around them."
+    },
+    "g-virus": {
+      "name": "G-Virus (Golgotha)",
+      "creator": "William Birkin",
+      "description": "An unstoppable cycle of evolution discovered in Lisa Trevor's mutated body. Unlike the T-Virus, the G-Virus is a mutation storm that constantly changes its host and makes them theoretically immortal.",
+      "symptoms": "New organs and giant eyes erupting from all over the body. Complete loss of consciousness and instant, horrific physical adaptations to trauma."
+    },
+    "t-veronica": {
+      "name": "T-Veronica Virus",
+      "creator": "Alexia Ashford",
+      "description": "Alexia Ashford's genius combination of the Progenitor virus with the genes of a queen ant. This virus gives its host the chance to retain their intelligence; but the price is a 15-year deep sleep.",
+      "symptoms": "Blood that gains flammable properties, insectoid mutations, and absolute hive mind control established over subspecies."
+    },
+    "las-plagas": {
+      "name": "Las Plagas",
+      "creator": "Los Iluminados (Discovered)",
+      "description": "Not a virus, but an ancient parasite sleeping in the dark caves of Spain. By settling in the central nervous system, it steals the host's will and turns them into a loyal slave of the 'Master Plaga'.",
+      "symptoms": "Loss of free will, extreme resistance to pain, and giant tentacles erupting from the body in case of severe damage."
+    },
+    "uroboros": {
+      "name": "Uroboros Virus",
+      "creator": "Albert Wesker",
+      "description": "A dangerous mixture of Progenitor and Las Plagas antibodies that adorned Wesker's dreams of godhood. Only the 'chosen' can adapt to this virus, which swallows the weak like black slime.",
+      "symptoms": "Black, leech-like structures wrapping the host's body. In those who adapt, superhuman abilities and glowing red eyes."
+    },
+    "c-virus": {
+      "name": "C-Virus (Chrysalid)",
+      "creator": "Carla Radames",
+      "description": "A terrifying combination of T-Veronica and G-Virus. Designed to create intelligent and extremely dangerous biological weapons (J'avo) capable of instant mutation based on the damage they receive.",
+      "symptoms": "The body entering a chrysalis and then being reborn in a completely different, terrifying form."
+    },
+    "mutamycete": {
+      "name": "Mutamycete (The Mold)",
+      "creator": "The Connections",
+      "description": "A giant fungal network that mentally connects its hosts. An insidious organism that stores the consciousness of every living thing it consumes like digital data in its root network called 'Megamycete'.",
+      "symptoms": "Miraculous reattachment of severed limbs, hallucinations, and absolute devotion to a central will like Eveline."
+    },
+    "elanthropus": {
+      "name": "Elanthropus Virus",
+      "creator": "Unknown",
+      "description": "The dark secret at the heart of Resident Evil 9: Requiem. This pathogen, associated with Grace Ashcroft's tragic story, is the most current threat bringing the world to the brink of a new extinction.",
+      "symptoms": "Severe mutations and uncontrollable aggression. Its only cure is the Elpis vaccine, obtained through great sacrifices."
+    }
+  }
+}

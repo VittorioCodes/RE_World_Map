@@ -1,0 +1,131 @@
+{
+  "app": {
+    "title": "Resident Evil",
+    "subtitle": "Küresel Biyotehlike Topolojisi",
+    "nostalgia_on": "Nostalji Modu: AÇIK",
+    "nostalgia_off": "Nostalji Modu: KAPALI",
+    "crt_max": "CRT Efekti: MAKS",
+    "crt_min": "CRT Efekti: MİN",
+    "virus_database": "Virüs Veritabanı",
+    "bow_database": "B.O.W. Veritabanı",
+    "track_subject": "Süjeyi Takip Et",
+    "waypoint": "ARA NOKTA {{current}} / {{total}}",
+    "location_data": "Konum Verisi",
+    "featured_in": "Görüldüğü Oyunlar",
+    "subjects_present": "Mevcut Süjeler",
+    "incident_summary": "Olay Özeti",
+    "lat": "ENL",
+    "lng": "BOY",
+    "instructions": "Döndürmek için sürükle • Yakınlaştırmak için kaydır • Bilgi için işaretçilere tıkla",
+    "classified": "GİZLİ",
+    "description": "Açıklama",
+    "symptoms": "Semptomlar ve Etkiler",
+    "sys_op_normal": "SİS.OP.NORMAL",
+    "archive": "UMBRELLA CORP. ARŞİVİ // {{year}}",
+    "language": "Dil"
+  },
+  "characters": {
+    "All": "Tümü",
+    "Chris Redfield": "Chris Redfield",
+    "Jill Valentine": "Jill Valentine",
+    "Leon S. Kennedy": "Leon S. Kennedy",
+    "Claire Redfield": "Claire Redfield",
+    "Ada Wong": "Ada Wong",
+    "Ethan Winters": "Ethan Winters",
+    "Grace Ashcroft": "Grace Ashcroft"
+  },
+  "locations": {
+    "raccoon-city": {
+      "name": "Raccoon Şehri ve Arklay Dağları",
+      "summary": "Kabusun başladığı yer. Arklay Dağları'ndaki o malikanede başlayan kıvılcım, tüm bir şehri küle çeviren nükleer bir felakete dönüştü. Şimdi sadece Leon ve Grace'in yollarının kesiştiği, geçmişin hayaletleriyle dolu bir mezarlık."
+    },
+    "rockfort-island": {
+      "name": "Rockfort Adası",
+      "summary": "Claire'in demir parmaklıklar ardında Umbrella'nın gerçek yüzüyle tanıştığı ıssız bir ada. Wesker'ın intikam ateşiyle sarsılan bu tesis, T-Veronica virüsünün pençesinde yıkıma sürüklendi."
+    },
+    "valdelobos": {
+      "name": "Valdelobos (Kırsal Köy)",
+      "summary": "İspanya'nın derinliklerinde zamanın durduğu bir köy. Los Iluminados tarikatı tarafından Las Plagas ile zehirlenen bu topraklar, Leon'un başkanın kızını kurtarmak için girdiği amansız bir hayatta kalma mücadelesine sahne oldu."
+    },
+    "kijuju": {
+      "name": "Kijuju Otonom Bölgesi",
+      "summary": "Batı Afrika'nın kavurucu sıcağında, Uroboros'un gölgesinde bir kaos. Chris ve Jill, Wesker'ın evrim rüyasını kabusa çevirmek için bu tozlu sokaklarda son bir savaşa girdiler."
+    },
+    "tall-oaks": {
+      "name": "Tall Oaks",
+      "summary": "Başkanın ölümüyle sarsılan bir Amerikan şehri. C-Virüsü'nün getirdiği yıkım tüm bir toplumu Leon'un gözleri önünde canavarlara dönüştürürken, geriye sadece yanan binalar ve sonsuz bir yas kaldı."
+    },
+    "edonia": {
+      "name": "Edonia",
+      "summary": "İç savaşın pençesinde kıvranan bir Doğu Avrupa ülkesi. J'avo mutasyonlarının kol gezdiği bu karlı topraklarda BSAA en ağır bedellerinden birini ödedi."
+    },
+    "lanshiang": {
+      "name": "Lanshiang",
+      "summary": "Milyonların yaşadığı bir metropol, bir gecede Neo Umbrella'nın biyoterörizm laboratuvarına dönüştü. Chris ve Leon, insanlığın son kalesini savunmak için bu neon ışıklı cehennemde omuz omuza durdular."
+    },
+    "dulvey": {
+      "name": "Dulvey, Louisiana",
+      "summary": "Louisiana bataklıklarında Baker ailesinin çürüyen malikanesi. Kayıp eşini arayan Ethan Winters, kendini 'Küf' ve Eveline tarafından yaratılan, gerçeklik ve kabusun iç içe geçtiği o dehşet evinde buldu."
+    },
+    "the-village": {
+      "name": "Köy",
+      "summary": "Romanya'nın karlı dağları arasında, Rahibe Miranda ve dört lordu tarafından yönetilen kadim bir köy. Megamiset'in kök saldığı bu topraklar, Ethan'ın kızını kurtarmak için verdiği son ve en trajik mücadelenin sessiz tanığıdır."
+    }
+  },
+  "viruses": {
+    "progenitor": {
+      "name": "Progenitor Virüsü",
+      "creator": "Rahibe Miranda / Umbrella Kurucuları",
+      "description": "Batı Afrika'nın derinliklerindeki 'Güneş Merdiveni' çiçeğinin özünde saklı kadim bir güç. Umbrella'nın temellerini atan bu virüs, insan evrimini zorlayan tüm biyolojik felaketlerin atasıdır.",
+      "symptoms": "Hücresel yapıda aşırı mutasyon ve fiziksel güçte artış. Ancak çoğu denek için bu süreç genetik uyumsuzluk nedeniyle hızlı bir ölümle sonuçlanır."
+    },
+    "t-virus": {
+      "name": "T-Virüsü (Tyrant)",
+      "creator": "James Marcus / William Birkin",
+      "description": "Progenitor virüsünün sülük DNA'sı ile harmanlanmasından doğan bir canavar. Umbrella'nın 'mükemmel asker' yaratma hırsının meyvesi olan bu virüs, dünyayı zombi salgınıyla tanıştıran ana suçludur.",
+      "symptoms": "Dokularda nekroz, beyin fonksiyonlarının kaybı ve bitmek bilmeyen bir açlık hissi. Denekler yaşayan ölülere dönüşerek etraflarına dehşet saçarlar."
+    },
+    "g-virus": {
+      "name": "G-Virüsü (Golgotha)",
+      "creator": "William Birkin",
+      "description": "Lisa Trevor'ın mutasyona uğramış bedeninde keşfedilen durdurulamaz bir evrim döngüsü. T-Virüsü'nün aksine, G-Virüsü konağını sürekli değiştiren ve onları teorik olarak ölümsüz kılan bir mutasyon fırtınasıdır.",
+      "symptoms": "Vücudun her yerinden fışkıran yeni organlar ve dev gözler. Bilincin tamamen kaybı ve travmaya karşı anında, korkunç fiziksel adaptasyonlar."
+    },
+    "t-veronica": {
+      "name": "T-Veronica Virüsü",
+      "creator": "Alexia Ashford",
+      "description": "Alexia Ashford'un Progenitor virüsünü bir kraliçe karıncanın genleriyle dahiyane bir şekilde birleştirmesi. Bu virüs konağına zekasını koruma şansı verir; ancak bedeli 15 yıllık derin bir uykudur.",
+      "symptoms": "Yanıcı özellikler kazanan kan, böceksi mutasyonlar ve alt türler üzerinde kurulan mutlak kovan zihni kontrolü."
+    },
+    "las-plagas": {
+      "name": "Las Plagas",
+      "creator": "Los Iluminados (Keşfedildi)",
+      "description": "Bir virüs değil, İspanya'nın karanlık mağaralarında uyuyan kadim bir parazit. Merkezi sinir sistemine yerleşerek konağın iradesini çalar ve onu 'Usta Plaga'nın sadık bir kölesi haline getirir.",
+      "symptoms": "Özgür iradenin kaybı, acıya karşı aşırı direnç ve ciddi hasar durumunda vücuttan fışkıran dev dokunaçlar."
+    },
+    "uroboros": {
+      "name": "Uroboros Virüsü",
+      "creator": "Albert Wesker",
+      "description": "Wesker'ın tanrılık hayallerini süsleyen Progenitor ve Las Plagas antikorlarının tehlikeli bir karışımı. Sadece 'seçilmişler' zayıfları siyah bir balçık gibi yutan bu virüse adapte olabilir.",
+      "symptoms": "Konağın vücudunu saran siyah, sülük benzeri yapılar. Adapte olanlarda insanüstü yetenekler ve parlayan kırmızı gözler."
+    },
+    "c-virus": {
+      "name": "C-Virüsü (Chrysalid)",
+      "creator": "Carla Radames",
+      "description": "T-Veronica ve G-Virüsü'nün korkunç bir kombinasyonu. Aldıkları hasara göre anında mutasyon geçirebilen zeki ve son derece tehlikeli biyolojik silahlar (J'avo) yaratmak için tasarlandı.",
+      "symptoms": "Vücudun bir krizalite girmesi ve ardından tamamen farklı, korkunç bir biçimde yeniden doğması."
+    },
+    "mutamycete": {
+      "name": "Mutamiset (Küf)",
+      "creator": "The Connections",
+      "description": "Konaklarını zihinsel olarak birbirine bağlayan dev bir mantar ağı. Tükettiği her canlının bilincini 'Megamiset' adlı kök ağında dijital veriler gibi depolayan sinsi bir organizma.",
+      "symptoms": "Kopan uzuvların mucizevi bir şekilde yeniden birleşmesi, halüsinasyonlar ve Eveline gibi merkezi bir iradeye mutlak bağlılık."
+    },
+    "elanthropus": {
+      "name": "Elanthropus Virüsü",
+      "creator": "Bilinmiyor",
+      "description": "Resident Evil 9: Requiem'in kalbindeki karanlık sır. Grace Ashcroft'un trajik hikayesiyle bağlantılı olan bu patojen, dünyayı yeni bir yok oluşun eşiğine getiren en güncel tehdittir.",
+      "symptoms": "Şiddetli mutasyonlar ve kontrol edilemeyen saldırganlık. Tek tedavisi büyük fedakarlıklarla elde edilen Elpis aşısıdır."
+    }
+  }
+}

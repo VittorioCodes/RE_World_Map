@@ -1,0 +1,131 @@
+{
+  "app": {
+    "title": "Resident Evil",
+    "subtitle": "Topología Global de Riesgo Biológico",
+    "nostalgia_on": "Modo Nostalgia: ACTIVADO",
+    "nostalgia_off": "Modo Nostalgia: DESACTIVADO",
+    "crt_max": "Efecto CRT: MÁX",
+    "crt_min": "Efecto CRT: MÍN",
+    "virus_database": "Base de Datos de Virus",
+    "bow_database": "Base de Datos de B.O.W.",
+    "track_subject": "Rastrear Sujeto",
+    "waypoint": "PUNTO DE RUTA {{current}} / {{total}}",
+    "location_data": "Datos de Ubicación",
+    "featured_in": "Aparece en",
+    "subjects_present": "Sujetos Presentes",
+    "incident_summary": "Resumen del Incidente",
+    "lat": "LAT",
+    "lng": "LON",
+    "instructions": "Arrastra para rotar • Desplázate para zoom • Haz clic en marcadores para info",
+    "classified": "CLASIFICADO",
+    "description": "Descripción",
+    "symptoms": "Síntomas y Efectos",
+    "sys_op_normal": "SISTEMA OPERATIVO NORMAL",
+    "archive": "ARCHIVO UMBRELLA CORP. // {{year}}",
+    "language": "Idioma"
+  },
+  "characters": {
+    "All": "Todos",
+    "Chris Redfield": "Chris Redfield",
+    "Jill Valentine": "Jill Valentine",
+    "Leon S. Kennedy": "Leon S. Kennedy",
+    "Claire Redfield": "Claire Redfield",
+    "Ada Wong": "Ada Wong",
+    "Ethan Winters": "Ethan Winters",
+    "Grace Ashcroft": "Grace Ashcroft"
+  },
+  "locations": {
+    "raccoon-city": {
+      "name": "Raccoon City y Montañas Arklay",
+      "summary": "Donde comenzó la pesadilla. La chispa que saltó en aquella mansión de las montañas Arklay se convirtió en una catástrofe nuclear que redujo a cenizas toda una ciudad. Ahora no es más que un cementerio lleno de fantasmas del pasado, donde los caminos de Leon y Grace se cruzan."
+    },
+    "rockfort-island": {
+      "name": "Isla Rockfort",
+      "summary": "Una isla solitaria donde Claire conoció el verdadero rostro de Umbrella tras las rejas. Sacudida por el fuego de la venganza de Wesker, esta instalación fue destruida bajo las garras del virus T-Veronica."
+    },
+    "valdelobos": {
+      "name": "Valdelobos (Pueblo Rural)",
+      "summary": "Un pueblo en lo profundo de España donde el tiempo se detuvo. Infectado con Las Plagas por la secta de Los Iluminados, estas tierras fueron escenario de una lucha implacable por la supervivencia que Leon emprendió para rescatar a la hija del presidente."
+    },
+    "kijuju": {
+      "name": "Zona Autónoma de Kijuju",
+      "summary": "Un caos en el calor abrasador de África Occidental, bajo la sombra de Uroboros. Chris y Jill se enfrentaron en estas calles polvorientas en una batalla final para convertir el sueño de evolución de Wesker en una pesadilla."
+    },
+    "tall-oaks": {
+      "name": "Tall Oaks",
+      "summary": "Una ciudad estadounidense sacudida por la muerte del presidente. Mientras la destrucción causada por el virus C convertía a toda una sociedad en monstruos ante los ojos de Leon, solo quedaron edificios en llamas y un duelo interminable."
+    },
+    "edonia": {
+      "name": "Edonia",
+      "summary": "Un país de Europa del Este sumido en el dolor de la guerra civil. En estas tierras nevadas donde vagan las mutaciones J'avo, la BSAA pagó uno de sus precios más altos."
+    },
+    "lanshiang": {
+      "name": "Lanshiang",
+      "summary": "Una metrópolis donde viven millones de personas se convirtió de la noche a la mañana en un laboratorio de bioterrorismo de Neo Umbrella. Chris y Leon lucharon hombro con hombro en este infierno iluminado por neones para defender el último bastión de la humanidad."
+    },
+    "dulvey": {
+      "name": "Dulvey, Luisiana",
+      "summary": "La mansión en descomposición de la familia Baker en los pantanos de Luisiana. En busca de su esposa desaparecida, Ethan Winters se encontró en aquella casa del terror creada por el 'moho' y Eveline, donde la realidad y la pesadilla se entrelazaron."
+    },
+    "the-village": {
+      "name": "La Aldea",
+      "summary": "Un antiguo pueblo en las montañas nevadas de Rumanía, gobernado por la Madre Miranda y sus cuatro jerarcas. Estas tierras, donde el megamicelio echó raíces, son los testigos mudos de la última y más trágica lucha de Ethan por salvar a su hija."
+    }
+  },
+  "viruses": {
+    "progenitor": {
+      "name": "Virus Progenitor",
+      "creator": "Madre Miranda / Fundadores de Umbrella",
+      "description": "Una fuerza antigua, oculta en la esencia de la flor 'Escalera al Sol' en lo profundo de África Occidental. Este virus, que sentó las bases de Umbrella, es el antepasado de todos los desastres biológicos que fuerzan la evolución humana.",
+      "symptoms": "Mutación extrema de la estructura celular y aumento de la fuerza física. Sin embargo, para la mayoría de los sujetos, este proceso resulta en una muerte rápida debido a la incompatibilidad genética."
+    },
+    "t-virus": {
+      "name": "Virus T (Tyrant)",
+      "creator": "James Marcus / William Birkin",
+      "description": "Un monstruo nacido de la mezcla del virus Progenitor con ADN de sanguijuela. Fruto de la ambición de Umbrella por crear al 'soldado perfecto', este virus es el principal responsable de que el mundo conociera el brote zombi.",
+      "symptoms": "Necrosis en el tejido, pérdida de funciones cerebrales y una sensación de hambre interminable. Los sujetos se convierten en muertos vivientes, sembrando el terror a su alrededor."
+    },
+    "g-virus": {
+      "name": "Virus G (Golgotha)",
+      "creator": "William Birkin",
+      "description": "Un ciclo de evolución imparable, descubierto en el cuerpo mutado de Lisa Trevor. A diferencia del virus T, el virus G es una tormenta de mutaciones que cambia constantemente a su huésped y lo hace teóricamente inmortal.",
+      "symptoms": "Nuevos órganos y ojos gigantes que brotan por todo el cuerpo. Pérdida total de la conciencia y adaptaciones físicas instantáneas y terribles ante los traumas."
+    },
+    "t-veronica": {
+      "name": "Virus T-Veronica",
+      "creator": "Alexia Ashford",
+      "description": "La genial combinación de Alexia Ashford del virus Progenitor con los genes de una hormiga reina. Este virus le da al huésped la oportunidad de conservar su inteligencia; sin embargo, el precio es un sueño profundo de 15 años.",
+      "symptoms": "Sangre que adquiere propiedades inflamables, mutaciones insectoides y un control absoluto de la mente de colmena sobre las subespecies."
+    },
+    "las-plagas": {
+      "name": "Las Plagas",
+      "creator": "Los Iluminados (Descubierto)",
+      "description": "No es un virus, sino un parásito antiguo que duerme en las oscuras cuevas de España. Al alojarse en el sistema nervioso central, roba la voluntad del huésped y lo convierte en un esclavo leal de la 'Plaga Maestra'.",
+      "symptoms": "Pérdida del libre albedrío, resistencia extrema al dolor y tentáculos gigantes que brotan del cuerpo en caso de heridas graves."
+    },
+    "uroboros": {
+      "name": "Virus Uroboros",
+      "creator": "Albert Wesker",
+      "description": "Una mezcla peligrosa de anticuerpos del virus Progenitor y Las Plagas que alimentó los sueños de divinidad de Wesker. Solo los 'elegidos' pueden adaptarse a este virus, que devora a los débiles como lodo negro.",
+      "symptoms": "Estructuras negras similares a sanguijuelas que envuelven el cuerpo del huésped. En quienes se adaptan, habilidades sobrehumanas y ojos que brillan en rojo."
+    },
+    "c-virus": {
+      "name": "Virus C (Chrysalid)",
+      "creator": "Carla Radames",
+      "description": "Una combinación terrible de los virus T-Veronica y G. Diseñado para crear armas biológicas inteligentes y extremadamente peligrosas (J'avo), capaces de mutaciones instantáneas basadas en el daño recibido.",
+      "symptoms": "El cuerpo entra en un estado de crisálida y luego renace en una forma completamente diferente y aterradora."
+    },
+    "mutamycete": {
+      "name": "Mutamiceto (El Moho)",
+      "creator": "The Connections",
+      "description": "Una vasta red de hongos que conecta mentalmente a sus huéspedes. Un organismo insidioso que almacena la conciencia de cada ser vivo que consume como datos digitales en su red de raíces llamada 'Megamicelio'.",
+      "symptoms": "Reconexión milagrosa de extremidades cortadas, alucinaciones y devoción absoluta a una voluntad central como Eveline."
+    },
+    "elanthropus": {
+      "name": "Virus Elanthropus",
+      "creator": "Desconocido",
+      "description": "El oscuro secreto en el corazón de Resident Evil 9: Requiem. Este patógeno, vinculado a la trágica historia de Grace Ashcroft, es la amenaza más actual que lleva al mundo al borde de una nueva extinción.",
+      "symptoms": "Mutaciones graves y agresión incontrolable. Su único remedio es la vacuna Elpis, obtenida con grandes sacrificios."
+    }
+  }
+}
