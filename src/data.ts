@@ -31,11 +31,11 @@ export const characters: Character[] = [
 
 export const characterPortraits: Record<Character, string> = {
   All: "https://picsum.photos/seed/re_umbrella/400/300?blur=2",
-  "Chris Redfield": "https://static.wikia.nocookie.net/residentevil/images/d/d7/Menacing_Chris.jpg/revision/latest/scale-to-width-down/1000?cb=20210509010458",
+  "Chris Redfield": "https://www.evilresource.com/images/data/full/re4remake/ada-wong.png?d1dc819e",
   "Jill Valentine": "https://static.wikia.nocookie.net/zombie/images/8/87/Jill_Valentine.jpeg/revision/latest/scale-to-width-down/1000?cb=20231211232818",
   "Leon S. Kennedy": "https://static.wikia.nocookie.net/residentevil/images/6/6d/RE_Requiem_-_Leon_Gun.jpeg/revision/latest/scale-to-width-down/1000?cb=20251212070936",
   "Claire Redfield": "https://static.wikia.nocookie.net/zombie/images/c/ce/Claire_Redfield.jpg/revision/latest?cb=20240922011202",
-  "Ada Wong": "https://static.wikia.nocookie.net/residentevil/images/7/77/RE_VERSE_Ada.png/revision/latest/scale-to-width-down/1000?cb=20210410224827",
+  "Ada Wong": "https://www.evilresource.com/images/data/full/re4remake/ada-wong.png?d1dc819e",
   "Ethan Winters": "https://static.wikia.nocookie.net/residentevil/images/d/d0/Resident_Evil_Village_Avatar_-_Influencer_Giveaway_07.png/revision/latest?cb=20210504015334",
   "Grace Ashcroft": "https://static.wikia.nocookie.net/residentevil/images/a/af/Grace_Main.png/revision/latest/scale-to-width-down/1000?cb=20250822194335",
 };
@@ -213,7 +213,7 @@ export const viruses: Virus[] = [
     id: "las-plagas",
     name: "Las Plagas",
     creator: "Los Iluminados (Keşfedildi)",
-    year: "Antik / 2004",
+    year: "? - 2004",
     color: "#eab308",
     description:
       "Bir virüs değil, İspanya'nın karanlık mağaralarında uyuyan kadim bir parazit. Merkezi sinir sistemine yerleşerek konağın iradesini çalar ve onu 'Usta Plaga'nın sadık bir kölesine dönüştürür.",
@@ -246,7 +246,7 @@ export const viruses: Virus[] = [
     id: "mutamycete",
     name: "Mutamycete (Küf)",
     creator: "The Connections",
-    year: "2000'ler",
+    year: "2000s",
     color: "#1c1917",
     description:
       "Konaklarını zihinsel olarak birbirine bağlayan devasa bir mantar ağı. Tükettiği her canlının bilincini 'Megamiset' adlı kök ağında dijital veriler gibi depolayan sinsi bir organizma.",
