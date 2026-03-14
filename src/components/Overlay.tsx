@@ -370,12 +370,6 @@ export default function Overlay({
       </AnimatePresence>
 
       {/* Footer Instructions - Only show when no character selected or no waypoints */}
-      <div className="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 text-center flex flex-col gap-2">
-        {selectedCharacter === "All" && (
-          <p className="text-xs font-mono text-red-400/80 bg-[#1a1515]/80 px-5 py-2.5 rounded-full backdrop-blur-md border border-red-900/50 shadow-lg">
-            {t('app.instructions')}
-          </p>
-        )}
         <div className="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 text-center flex flex-col gap-2">
         {selectedCharacter === "All" && (
           <p className="text-xs font-mono text-red-400/80 bg-[#1a1515]/80 px-5 py-2.5 rounded-full backdrop-blur-md border border-red-900/50 shadow-lg">
