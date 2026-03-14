@@ -5,6 +5,7 @@ import * as THREE from "three";
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import { Location, Character, locations, gameOrder } from "../data";
+import { OrbitControls, Line, Html, useTexture, Text } from "@react-three/drei";
 
 const HeavyPostProcessing = lazy(() => import("./HeavyPostProcessing"));
 
@@ -279,27 +280,18 @@ const Marker = ({
 
       {/* Label */}
       {!isFaded && (
-        <Html
-          position={[0, height + 0.4, 0]}
-          center
-          className="pointer-events-none z-10"
-          zIndexRange={[0, 10]}
-          occlude
+        <Text
+          position={[0, height + 0.5, 0]}
+          fontSize={0.35}
+          color={isSelected ? "#f87171" : "#cbd5e1"}
+          anchorX="center"
+          anchorY="bottom"
+          outlineWidth={0.04}
+          outlineColor="#1a1515"
+          renderOrder={1}
         >
-          <div
-            className={`
-            text-[10px] font-mono font-bold px-2 py-1 rounded whitespace-nowrap backdrop-blur-md transition-all duration-300
-            ${heavyNostalgiaMode ? "font-pixel" : ""}
-            ${
-              isSelected
-                ? "bg-red-950/90 border border-red-500 text-red-400 scale-110 shadow-[0_0_15px_rgba(239,68,68,0.8)]"
-                : "bg-[#1a1515]/80 border border-red-900/50 text-slate-300"
-            }
-          `}
-          >
-            {t(`locations.${location.id}.name`, location.name)}
-          </div>
-        </Html>
+          {t(`locations.${location.id}.name`, location.name)}
+        </Text>
       )}
 
       {children}
@@ -495,20 +487,18 @@ export default function Map3D({
                 heavyNostalgiaMode={heavyNostalgiaMode}
               >
                 {showNumber && (
-                  <Html
-                    position={[0, 3.2, 0]}
-                    center
-                    className="pointer-events-none z-20"
-                    occlude
+                  <Text
+                    position={[0, 3.4, 0]}
+                    fontSize={0.45}
+                    color="#ffffff"
+                    anchorX="center"
+                    anchorY="middle"
+                    outlineWidth={0.08}
+                    outlineColor="#dc2626"
+                    renderOrder={2}
                   >
-                    <motion.div
-                      initial={{ scale: 0, opacity: 0 }}
-                      animate={{ scale: 1, opacity: 1 }}
-                      className={`w-6 h-6 rounded-full bg-red-600 text-white flex items-center justify-center text-[11px] font-black border-2 border-[#1a1515] shadow-[0_0_15px_rgba(220,38,38,0.9)] ${heavyNostalgiaMode ? "font-pixel" : ""}`}
-                    >
-                      {pathIndex + 1}
-                    </motion.div>
-                  </Html>
+                    {String(pathIndex + 1)}
+                  </Text>
                 )}
               </Marker>
             );
