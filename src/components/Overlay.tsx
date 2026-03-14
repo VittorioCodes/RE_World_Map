@@ -397,7 +397,6 @@ export default function Overlay({
           </a>
         </p>
       </div>
-      </div>
     </div>
   );
 }
