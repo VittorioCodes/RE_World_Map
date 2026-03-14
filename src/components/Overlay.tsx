@@ -376,9 +376,33 @@ export default function Overlay({
             {t('app.instructions')}
           </p>
         )}
+        <div className="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 text-center flex flex-col gap-2">
+        {selectedCharacter === "All" && (
+          <p className="text-xs font-mono text-red-400/80 bg-[#1a1515]/80 px-5 py-2.5 rounded-full backdrop-blur-md border border-red-900/50 shadow-lg">
+            {t('app.instructions')}
+          </p>
+        )}
         <p className="text-[10px] font-mono text-slate-600 uppercase tracking-tighter opacity-50">
-          Resident Evil is a trademark of Capcom. This is a non-commercial fan project.
+          Resident Evil is a trademark of Capcom. Character art by Fandom Wiki &{" "}
+          <a
+            href="https://www.evilsource.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-slate-400 transition-colors pointer-events-auto"
+          >
+            EvilSource.com
+          </a>
+          {" "}· Non-commercial fan project ·{" "}
+          <a
+            href="https://github.com/VittorioCodes/RE_World_Map"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-slate-400 transition-colors pointer-events-auto"
+          >
+            GitHub
+          </a>
         </p>
+      </div>
       </div>
     </div>
   );
