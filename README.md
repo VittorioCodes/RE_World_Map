@@ -70,7 +70,7 @@ Full localization in English, Turkish, Spanish, French, German, Italian, Portugu
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/RE_World_Map.git
+git clone https://github.com/VittorioCodes/RE_World_Map.git
 cd RE_World_Map
 
 # Install dependencies
